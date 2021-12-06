@@ -64,7 +64,7 @@ function buildCharts(sample) {
     var samples = data.samples;
 
     // 4. Create a variable that filters the samples for the object with the desired sample number.
-    var samplesArray = samples.filter(sampleObj => sampleObj.id == sample);
+    var samplesArray = samples.filter(sampleObj => sampleObj.otu_id == sample);
     
     //  5. Create a variable that holds the first sample in the array.
     var samplesResults = samplesArray[0];
@@ -92,14 +92,14 @@ function buildCharts(sample) {
       }];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
-      title: "Top 10 Bacterial Specis"
+      title: "Top 10 Bacterial Cultures Found"
     };
     // 10. Use Plotly to plot the data with the layout. 
-    Plotly.newPlot("plot", barData, barLayout
-  )});
-}
+    Plotly.newPlot("plot", barData, barLayout);
+  
 
-// Deliverable 2: Create a Bubble Chart
+
+    // Deliverable 2: Create a Bubble Chart
 
     // 1. Create the trace for the bubble chart.
     var bubbleData = [{
@@ -127,7 +127,7 @@ function buildCharts(sample) {
   
 
 
-// Deliverable 3: Create a Gauge Chart
+    // Deliverable 3: Create a Gauge Chart
 
     // 1. Create a variable that filters the metadata array for the object with the desired sample number.
     var metadata = data.metadata;
@@ -167,6 +167,8 @@ function buildCharts(sample) {
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
-    Plotly.newPlot("gauge", gaugeData, gaugeLayout);
-  
+    Plotly.newPlot("gauge", gaugeData, gaugeLayout
+    )
+  });
+}
 
