@@ -64,7 +64,7 @@ function buildCharts(sample) {
     var samples = data.samples;
 
     // 4. Create a variable that filters the samples for the object with the desired sample number.
-    var samplesArray = samples.filter(sampleObj => sampleObj.otu_id == sample);
+    var samplesArray = samples.filter(sampleObj => sampleObj.id == sample);
     
     //  5. Create a variable that holds the first sample in the array.
     var samplesResults = samplesArray[0];
@@ -137,7 +137,7 @@ function buildCharts(sample) {
     var gaugeResult = gaugeArray[0];
 
     // 3. Create a variable that holds the washing frequency.
-    var washFreq = gaugeResult.washFreq
+    var washFreq = gaugeResult.wfreq
 
     // 4. Create the trace for the gauge chart.
     var gaugeData = [{
