@@ -9,5 +9,5 @@ The updated index.html file.
 The charts.js file, which should be in the js folder of the static folder.
 The samples.json file.
 
-The io site is not working yet. 
+The io site is not working yet: https://jrobinson3.github.io/plotly-challenge/. 
 
