@@ -1,4 +1,4 @@
-# plotly-challenge
+# Plotly-challenge
 This new assignment consists of four technical analysis deliverables. You will submit the following:
 Deliverable 1: Create a Horizontal Bar Chart
 Deliverable 2: Create a Bubble Chart
@@ -9,5 +9,6 @@ The updated index.html file.
 The charts.js file.
 The samples.json file.
 After completing the code, the final dashboard looks like below:  
-The io site is not working yet: https://jrobinson3.github.io/plotly-challenge/. 
+!image[https://github.com/Jrobinson3/plotly-challenge/blob/main/Final%20picture.PNG]
+Please check out my io site: https://jrobinson3.github.io/plotly-challenge/. 
 
