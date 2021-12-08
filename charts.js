@@ -146,7 +146,7 @@ function buildCharts(sample) {
       mode: "gauge+number",
       title: "Belly Button Washing Frequency",
       gauge: {
-        axis: { range: [null, 10], dtick: 2, tickwidth: 1, tickcolor: "black" },
+        axis: { range: [null, 10], tickvalue: 2, tickwidth: 1, tickcolor: "black" },
         borderwidth: 2,
         steps: [
           { range: [0, 2], color: "red" },
