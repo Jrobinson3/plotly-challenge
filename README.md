@@ -6,8 +6,8 @@ Deliverable 3: Create a Gauge Chart
 Deliverable 4: Customize the Dashboard
 # Upload the following files:
 The updated index.html file.
-The charts.js file, which should be in the js folder of the static folder.
+The charts.js file.
 The samples.json file.
-
+After completing the code, the final dashboard looks like below:  
 The io site is not working yet: https://jrobinson3.github.io/plotly-challenge/. 
 
