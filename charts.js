@@ -86,7 +86,7 @@ function buildCharts(sample) {
     var barData = [{
       x: values,
       y: yticks,
-      type: "Bar",
+      type: "bar",
       orientation: "h",
       text: labels
       }];
@@ -146,11 +146,10 @@ function buildCharts(sample) {
       mode: "gauge+number",
       title: "Belly Button Washing Frequency",
       gauge: {
-        axis: { range: [null, 0], tickwidth: 1, tickcolor: "black" },
+        dtick: 2, 
+        axis: { range: [null, 2], tickwidth: 1, tickcolor: "black" },
         bar: { color: "black" },
-        bgcolor: "white",
         borderwidth: 2,
-        bordercolor: "white",
         steps: [
           { range: [0, 2], color: "red" },
           { range: [2, 4], color: "orange" },
