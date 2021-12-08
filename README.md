@@ -9,6 +9,6 @@ The updated index.html file.
 The charts.js file.
 The samples.json file.
 After completing the code, the final dashboard looks like below:  
-!image[https://github.com/Jrobinson3/plotly-challenge/blob/main/Final%20picture.PNG]
+![This is an image](https://github.com/Jrobinson3/plotly-challenge/blob/main/Final%20picture.PNG)
 Please check out my io site: https://jrobinson3.github.io/plotly-challenge/. 
 
