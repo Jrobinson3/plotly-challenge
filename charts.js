@@ -71,8 +71,8 @@ function buildCharts(sample) {
 
     // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
     var ids = samplesResults.otu_ids;
-    var labels = samplesResults.otu_labels;
-    var values = samplesResults.sample_values;
+    var labels = samplesResults.otu_labels.slice(0,10).reverse();
+    var values = samplesResults.sample_values.slice(0,10).reverse();
 
   
     // 7. Create the yticks for the bar chart.
@@ -141,14 +141,12 @@ function buildCharts(sample) {
 
     // 4. Create the trace for the gauge chart.
     var gaugeData = [{
-      value: washFreq,
+      value: 2,
       type: "indicator",
       mode: "gauge+number",
       title: "Belly Button Washing Frequency",
       gauge: {
-        dtick: 2, 
-        axis: { range: [null, 2], tickwidth: 1, tickcolor: "black" },
-        bar: { color: "black" },
+        axis: { range: [null, 10], tickwidth: 1, tickcolor: "black" },
         borderwidth: 2,
         steps: [
           { range: [0, 2], color: "red" },
