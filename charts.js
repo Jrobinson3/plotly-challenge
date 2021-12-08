@@ -141,12 +141,12 @@ function buildCharts(sample) {
 
     // 4. Create the trace for the gauge chart.
     var gaugeData = [{
-      value: 2,
+      value: washFreq,
       type: "indicator",
       mode: "gauge+number",
       title: "Belly Button Washing Frequency",
       gauge: {
-        axis: { range: [null, 10], tickwidth: 1, tickcolor: "black" },
+        axis: { range: [null, 10], dtick: "2", tickwidth: 1, tickcolor: "black" },
         borderwidth: 2,
         steps: [
           { range: [0, 2], color: "red" },
