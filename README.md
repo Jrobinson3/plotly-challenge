@@ -8,8 +8,11 @@ Deliverable 4: Customize the Dashboard
 The updated index.html file.
 The charts.js file.
 The samples.json file.
+Created a Horizontal Bar chart, a Bubble Chart, and a Gauge chart. 
 The final dashboard looks like below:  
 ![This is an image](https://github.com/Jrobinson3/plotly-challenge/blob/main/Final%20picture.PNG)
 
-Please check out my io site: https://jrobinson3.github.io/plotly-challenge/. 
+Please check out my io site: https://jrobinson3.github.io/plotly-challenge/.
 
+Dashboard background color is changed through updating html file.  See below:
+![This is an image](https://github.com/Jrobinson3/plotly-challenge/blob/main/Dashboard%20background%20color.PNG)
